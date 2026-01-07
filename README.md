@@ -80,36 +80,5 @@ Consulter la table users dans MySQL pour confirmer la persistance.
 
 
 
-
-<img width="927" height="505" alt="Capture d&#39;écran 2025-12-22 105128" src="https://github.com/user-attachments/assets/20174beb-2eeb-406a-9623-758879e7dc3e" />
-
-<img width="928" height="502" alt="Capture d&#39;écran 2025-12-22 105144" src="https://github.com/user-attachments/assets/f3ed50c7-d0f8-45ad-b5a0-4a66ae5bcc5e" />
-
-<img width="923" height="497" alt="Capture d&#39;écran 2025-12-22 105158" src="https://github.com/user-attachments/assets/268aff03-a3c6-4502-a74c-59ef5eab1e6e" />
-
-
-
-
-
-
-<img width="926" height="500" alt="Capture d&#39;écran 2025-12-22 105519" src="https://github.com/user-attachments/assets/54ef7da7-ff8a-4a37-82c8-a0891f07effb" />
-
-<img width="919" height="497" alt="Capture d&#39;écran 2025-12-22 105534" src="https://github.com/user-attachments/assets/5809df34-e94a-4032-be8c-52b2514c4608" />
-
-
-
-<img width="929" height="500" alt="Capture d&#39;écran 2025-12-22 205158" src="https://github.com/user-attachments/assets/ef91834e-01ed-4033-a21b-abc67c732eb5" />
-
-
-
-
-<img width="930" height="501" alt="Capture d&#39;écran 2025-12-22 205407" src="https://github.com/user-attachments/assets/85e9161a-6bad-4a6a-929c-d921aa22a81e" />
-
-
-<img width="934" height="504" alt="Capture d&#39;écran 2025-12-22 205419" src="https://github.com/user-attachments/assets/3e89ea92-01c1-40f3-b739-dd3cfe3bdf05" />
-
-
-
-
 ---
 

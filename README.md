@@ -1,33 +1,9 @@
-﻿# Microservices Spring Boot avec RabbitMQ (messagerie JSON + persistance MySQL)
-
-## Aperçu
-Mettre en place deux mini-projets Spring Boot exploitant RabbitMQ (AMQP) pour échanger des messages entre microservices. Le premier mini-projet valide une communication Producer → RabbitMQ → Consumer (messages JSON). Le second mini-projet étend le flux en persistant les messages (objets User) dans MySQL côté Consumer.
-
----
-
-## Objectifs d’apprentissage
-Déclarer dynamiquement un exchange, une queue et un binding depuis Spring Boot.
-Publier un message via REST (Producer) et consommer via @RabbitListener (Consumer).
-Observer les échanges et compteurs dans l’interface RabbitMQ.
-Sérialiser/désérialiser en JSON avec Jackson2JsonMessageConverter.
-Persister un message consommé dans MySQL via Spring Data JPA.
-
----
-
-## Pré-requis
-RabbitMQ en cours d’exécution (Docker recommandé), ports 5672 (AMQP) et 15672 (UI).
-JDK 17+ (ou JDK compatible avec le Spring Boot utilisé).
-Maven.
-Postman (ou curl).
-MySQL + phpMyAdmin (optionnel mais requis pour la partie 2).
+Architecture Microservices : Communication Asynchrone & Persistance (Spring Boot + RabbitMQ)1. Présentation du ProjetL'objectif est de concevoir un écosystème de microservices exploitant le protocole AMQP via RabbitMQ pour assurer une communication découplée et résiliente. Le projet se décline en deux phases : l'implémentation de la messagerie réactive et la mise en place de la persistance de données métier.2. Compétences & Objectifs TechniquesInfrastructure Messaging : Configuration dynamique des composants RabbitMQ (Exchanges, Queues, Bindings) via Java Config.Flux de Données : Publication de messages via RabbitTemplate et écoute active via l'annotation @RabbitListener.Sérialisation : Transformation automatique des objets POJO en JSON (et inversement) à l'aide de Jackson2JsonMessageConverter.Pipeline de Persistance : Intégration de Spring Data JPA pour l'enregistrement des entités reçues dans une base de données MySQL.Monitoring : Utilisation de l'interface d'administration de RabbitMQ pour superviser le trafic et les files d'attente.3. Environnement de DéveloppementComposantDétailsLangage / FrameworkJava 17+ / Spring Boot 3.xMessage BrokerRabbitMQ (via Docker : rabbitmq:3-management)Ports RabbitMQ5672 (Communication) / 15672 (Interface Web)Base de donnéesMySQL + Spring Data JPATests APIPostman / cURL4. Architecture des Mini-ProjetsModule 1 : Pipeline de Messagerie JSONMise en place d'un tunnel de communication simple entre deux services.Producer (Port 8123) : Expose une API REST qui convertit les requêtes entrantes en messages RabbitMQ (Topic Exchange).Consumer (Port 8223) : Intercepte les messages en temps réel et affiche le contenu JSON dans les logs système.Module 2 : Flux métier avec PersistanceExtension du système pour inclure une logique de stockage.Scénario : Création d'un utilisateur (User).Flux : Requête REST → Production Message → RabbitMQ → Consommation → Mapping JPA → MySQL.5. Flux de Données CibleLe schéma suivant illustre le parcours d'une donnée du client jusqu'à la base de données :Client envoie un JSON à l'API du Producer.Producer route le message vers un Topic Exchange avec une Routing Key spécifique.RabbitMQ délivre le message dans la queue liée.Consumer récupère le message, le désérialise en objet User.Repository sauvegarde l'objet dans MySQL.
 
 --- 
 
-## Architecture cible
 
-### Mini-projet 1 (messagerie JSON)
 
-REST Producer (8123) → RabbitMQ (exchange topic + routing key) → Consumer (8223) → logs console.
 
 
 <img width="924" height="492" alt="Capture d&#39;écran 2025-12-22 101538" src="https://github.com/user-attachments/assets/59ab71b0-28ea-4084-9fdf-e533dca97a83" />

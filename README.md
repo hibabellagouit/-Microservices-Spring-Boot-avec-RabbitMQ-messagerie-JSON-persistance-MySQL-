@@ -1,14 +1,14 @@
-##🚀 Spring Boot Microservices : RabbitMQ & MySQL
+## 🚀 Spring Boot Microservices : RabbitMQ & MySQL
 Ce projet démontre l'implémentation d'une architecture microservices utilisant RabbitMQ comme broker de messages pour une communication asynchrone, avec une persistance des données dans MySQL.
 
-##📌 Aperçu du Projet
+## 📌 Aperçu du Projet
 Le projet est divisé en deux étapes majeures :
 
 Messagerie JSON : Communication fluide entre un Producteur et un Consommateur via RabbitMQ.
 
 Pipeline de Données : Extension du flux pour inclure la sauvegarde automatique des objets User dans une base de données relationnelle.
 
-##🛠️ Stack Technique
+## 🛠️ Stack Technique
 Framework : Spring Boot 3.x
 
 Langage : Java 17+
@@ -19,7 +19,7 @@ Base de données : MySQL
 
 Outils : Spring Data JPA, Jackson (JSON), Maven, Docker
 
-##🏗️ Architecture Cible
+## 🏗️ Architecture Cible
 1. Mini-projet : Messagerie JSON
 Producer (8123) : Reçoit des requêtes REST et publie des messages JSON.
 
@@ -32,7 +32,7 @@ Flux : Producer ➔ RabbitMQ ➔ Consumer ➔ Spring Data JPA ➔ MySQL.
 
 Objectif : Garantir que chaque message consommé est archivé de manière durable.
 
-##🚀 Configuration & Lancement
+## 🚀 Configuration & Lancement
 Pré-requis
 Docker installé (pour RabbitMQ)
 
@@ -64,7 +64,7 @@ Observer la console du Consumer pour la réception.
 
 Consulter la table users dans MySQL pour confirmer la persistance.
 
-##🎯 Objectifs d'Apprentissage
+## 🎯 Objectifs d'Apprentissage
 [x] Configuration dynamique des beans (Queue, TopicExchange, Binding).
 
 [x] Utilisation du Jackson2JsonMessageConverter pour la sérialisation.

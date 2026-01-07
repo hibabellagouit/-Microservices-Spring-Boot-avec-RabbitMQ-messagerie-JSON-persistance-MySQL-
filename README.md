@@ -79,7 +79,6 @@ Consulter la table users dans MySQL pour confirmer la persistance.
 
 
 
-<img width="924" height="492" alt="Capture d&#39;écran 2025-12-22 101538" src="https://github.com/user-attachments/assets/59ab71b0-28ea-4084-9fdf-e533dca97a83" />
 
 
 <img width="927" height="505" alt="Capture d&#39;écran 2025-12-22 105128" src="https://github.com/user-attachments/assets/20174beb-2eeb-406a-9623-758879e7dc3e" />
@@ -88,7 +87,6 @@ Consulter la table users dans MySQL pour confirmer la persistance.
 
 <img width="923" height="497" alt="Capture d&#39;écran 2025-12-22 105158" src="https://github.com/user-attachments/assets/268aff03-a3c6-4502-a74c-59ef5eab1e6e" />
 
-<img width="893" height="73" alt="Capture d&#39;écran 2025-12-22 105223" src="https://github.com/user-attachments/assets/2c23be96-7f2a-4e81-bd35-ba249ea58e8d" />
 
 
 

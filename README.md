@@ -115,12 +115,11 @@ REST Producer (8081) → RabbitMQ (exchange direct + routing key) → Consumer �
 
 <img width="957" height="502" alt="Capture d&#39;écran 2025-12-22 205053" src="https://github.com/user-attachments/assets/e1e40d39-9c07-4bb6-ac33-1162ecfccd96" />
 
-<img width="960" height="483" alt="Capture d&#39;écran 2025-12-22 205119" src="https://github.com/user-attachments/assets/ca8a9713-fa3b-4b9d-a29d-d308e9ba074e" />
 
 <img width="929" height="500" alt="Capture d&#39;écran 2025-12-22 205158" src="https://github.com/user-attachments/assets/ef91834e-01ed-4033-a21b-abc67c732eb5" />
 
 
-<img width="960" height="483" alt="Capture d&#39;écran 2025-12-22 205339" src="https://github.com/user-attachments/assets/6816a625-75c6-4f8f-bf11-ab81c426e143" />
+
 
 <img width="930" height="501" alt="Capture d&#39;écran 2025-12-22 205407" src="https://github.com/user-attachments/assets/85e9161a-6bad-4a6a-929c-d921aa22a81e" />
 

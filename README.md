@@ -32,19 +32,6 @@ REST Producer (8123) → RabbitMQ (exchange topic + routing key) → Consumer (8
 
 <img width="924" height="492" alt="Capture d&#39;écran 2025-12-22 101538" src="https://github.com/user-attachments/assets/59ab71b0-28ea-4084-9fdf-e533dca97a83" />
 
-<img width="291" height="472" alt="Capture d&#39;écran 2025-12-22 102726" src="https://github.com/user-attachments/assets/1fe86948-4d92-403a-b8c7-6aad97cc4305" />
-
-<img width="915" height="504" alt="Capture d&#39;écran 2025-12-22 102948" src="https://github.com/user-attachments/assets/e9c03b18-7c3c-4de8-8d61-dd8c66aa70af" />
-
-<img width="302" height="423" alt="Capture d&#39;écran 2025-12-22 104327" src="https://github.com/user-attachments/assets/5adf2f1f-51be-4ef3-b4db-6e684f812119" />
-
-
-<img width="960" height="490" alt="Capture d&#39;écran 2025-12-22 104704" src="https://github.com/user-attachments/assets/b6fa30eb-e70f-48a3-8d68-e61abd2dc963" />
-
-<img width="960" height="493" alt="Capture d&#39;écran 2025-12-22 104717" src="https://github.com/user-attachments/assets/ecb5e768-4969-453e-8853-ccbb07afba62" />
-
-<img width="960" height="499" alt="Capture d&#39;écran 2025-12-22 104944" src="https://github.com/user-attachments/assets/ab1a217c-4eca-4de2-8ebf-498bfc2839f6" />
-
 
 <img width="927" height="505" alt="Capture d&#39;écran 2025-12-22 105128" src="https://github.com/user-attachments/assets/20174beb-2eeb-406a-9623-758879e7dc3e" />
 

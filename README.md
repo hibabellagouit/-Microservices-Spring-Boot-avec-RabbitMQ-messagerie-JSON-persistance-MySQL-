@@ -91,27 +91,11 @@ Consulter la table users dans MySQL pour confirmer la persistance.
 
 
 
-### Mini-projet 2 (messagerie + MySQL)
-
-REST Producer (8081) → RabbitMQ (exchange direct + routing key) → Consumer → MySQL (table user).
-
-<img width="901" height="497" alt="Capture d&#39;écran 2025-12-22 105429" src="https://github.com/user-attachments/assets/4771bb29-6455-49a7-9a4b-1a426ef9e8bb" />
-
 
 <img width="926" height="500" alt="Capture d&#39;écran 2025-12-22 105519" src="https://github.com/user-attachments/assets/54ef7da7-ff8a-4a37-82c8-a0891f07effb" />
 
 <img width="919" height="497" alt="Capture d&#39;écran 2025-12-22 105534" src="https://github.com/user-attachments/assets/5809df34-e94a-4032-be8c-52b2514c4608" />
 
-<img width="913" height="502" alt="Capture d&#39;écran 2025-12-22 110255" src="https://github.com/user-attachments/assets/3003dd26-a375-4430-bc76-1122d4987bdd" />
-
-<img width="960" height="490" alt="Capture d&#39;écran 2025-12-22 204808" src="https://github.com/user-attachments/assets/e3e14b99-d48e-4c75-ac6c-179eca2d8760" />
-
-<img width="960" height="478" alt="Capture d&#39;écran 2025-12-22 204945" src="https://github.com/user-attachments/assets/818b6948-c66a-4e1f-8482-d4c404bc42df" />
-
-
-<img width="960" height="496" alt="Capture d&#39;écran 2025-12-22 205039" src="https://github.com/user-attachments/assets/27345c41-17e2-4952-b656-d35ac00a7da7" />
-
-<img width="957" height="502" alt="Capture d&#39;écran 2025-12-22 205053" src="https://github.com/user-attachments/assets/e1e40d39-9c07-4bb6-ac33-1162ecfccd96" />
 
 
 <img width="929" height="500" alt="Capture d&#39;écran 2025-12-22 205158" src="https://github.com/user-attachments/assets/ef91834e-01ed-4033-a21b-abc67c732eb5" />

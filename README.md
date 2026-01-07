@@ -128,23 +128,7 @@ REST Producer (8081) → RabbitMQ (exchange direct + routing key) → Consumer �
 <img width="934" height="504" alt="Capture d&#39;écran 2025-12-22 205419" src="https://github.com/user-attachments/assets/3e89ea92-01c1-40f3-b739-dd3cfe3bdf05" />
 
 
-<img width="934" height="489" alt="Capture d&#39;écran 2025-12-22 205447" src="https://github.com/user-attachments/assets/87f072f5-dd49-4c69-bc50-fa958c5a7a11" />
 
-<img width="931" height="496" alt="Capture d&#39;écran 2025-12-22 205458" src="https://github.com/user-attachments/assets/b15e930b-0c69-4bfb-abaf-81d62c16962e" />
-
-<img width="953" height="484" alt="Capture d&#39;écran 2025-12-22 205559" src="https://github.com/user-attachments/assets/ee8a424e-4cdb-46da-8b5c-814be5c08974" />
-
-<img width="960" height="487" alt="Capture d&#39;écran 2025-12-22 205628" src="https://github.com/user-attachments/assets/052ade12-68c7-4dc4-a7c0-b2f621355b25" />
 
 ---
-
-## Auteur
-
-**Nom :** JARDI Siham
-
-**Cours :** Architecture Microservices : Conception, Déploiement et Orchestration
-
-**Date :** Decembre 2025
-
-**Encadré par :** Pr.Mohamed LACHGHAR
 
